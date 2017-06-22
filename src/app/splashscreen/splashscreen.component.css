@@ -1,0 +1,26 @@
+.splashscreen-main {
+  min-width: 512px;
+  min-height: 100%;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("splashimage.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+  /* Set up positioning */
+  position: absolute;
+  display: table;
+  top: 0;
+  left: 0;
+  z-index: -2;
+   -webkit-filter: blur(5px); /* Safari */
+    filter: blur(5px);
+}
+
+.login-card {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: min-content;
+}

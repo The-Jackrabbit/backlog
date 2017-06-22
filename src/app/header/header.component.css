@@ -1,0 +1,27 @@
+.header-main {
+  width: 100vw;
+  height: 40pt;
+  background-color: lavender;
+  position: fixed;
+
+}
+
+.icon {
+  width: 30pt;
+  height: 30pt;
+  background-color: white;
+  text-align: center;
+  font-size: 18pt;
+  margin-top: 5pt;
+  margin-left: 5pt;
+  line-height: 30pt;
+  vertical-align: middle;
+  font-family: STIXGeneral;
+  font-style: italic;
+  font-weight: bolder;
+  border-radius: 4pt;
+}
+
+.t {
+  background-color: green;
+}
